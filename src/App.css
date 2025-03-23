@@ -1,0 +1,41 @@
+.App {
+  border: 1px solid white;
+  margin: 50px 30px;
+  padding: 25px 15px;
+  color: whitesmoke
+}
+body{
+  background-color: black;
+}
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  border: 3px solid;
+
+}
+
+.to-do-container ul li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+  background: blue;
+  color: white;
+  border: 1px solid gold;
+
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash {
+  cursor: pointer;
+}
